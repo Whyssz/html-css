@@ -1,0 +1,234 @@
+@font-face {
+  font-family: 'Cinzel';
+  font-display: swap;
+  src: url("../fonts/Cinzel-Bold.eot");
+  src: local("O"), url("../fonts/Cinzel-Bold.woff") format("woff"),
+  url("../fonts/Cinzel-Bold.ttf") format("truetype"),
+  url("../fonts/Cinzel-Bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Oswald';
+  font-display: swap;
+  src: url("../fonts/Oswald-VariableFont_wght.eot");
+  src: local("O"), url("../fonts/Oswald-VariableFont_wght.woff") format("woff"),
+  url("../fonts/Oswald-VariableFont_wght.ttf") format("truetype"),
+  url("../fonts/Oswald-VariableFont_wght.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Beauty Gadish';
+  font-display: swap;
+  src: url("../fonts/Beauty-Gadish.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gecko';
+  font-display: swap;
+  src: url("../fonts/Gecko_PersonalUseOnly.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GR';
+  font-display: swap;
+  src: url("../fonts/gothampro.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GM';
+  font-display: swap;
+  src: url("../fonts/gothampro_medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GB';
+  font-display: swap;
+  src: url("../fonts/gothampro_bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?r5400l');
+  src:  url('../fonts/icomoon.eot?r5400l#iefix') format('embedded-opentype'),
+  url('../fonts/icomoon.ttf?r5400l') format('truetype'),
+  url('../fonts/icomoon.woff?r5400l') format('woff'),
+  url('../fonts/icomoon.svg?r5400l#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-arrow_drop_down:before {
+  content: "\e904";
+}
+.icon-menu:before {
+  content: "\e900";
+}
+.icon-thumb_up:before {
+  content: "\e905";
+}
+.icon-menu_open:before {
+  content: "\e902";
+}
+.icon-view_in_ar:before {
+  content: "\e906";
+}
+.icon-insights:before {
+  content: "\e907";
+}
+.icon-local_fire_department:before {
+  content: "\e908";
+}
+.icon-cog:before {
+  content: "\e903";
+}
+.icon-home1:before {
+  content: "\e909";
+}
+.icon-connection:before {
+  content: "\e91b";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-location:before {
+  content: "\e947";
+}
+.icon-compass:before {
+  content: "\e949";
+}
+.icon-history:before {
+  content: "\e94d";
+}
+.icon-spinner9:before {
+  content: "\e984";
+}
+.icon-rocket:before {
+  content: "\e9a5";
+}
+.icon-fire:before {
+  content: "\e9aa";
+}
+.icon-heart:before {
+  content: "\e9da";
+}
+.icon-circle-up:before {
+  content: "\ea42";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-whatsapp:before {
+  content: "\ea93";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-tiktok:before {
+  content: "\e901";
+}
+.icon-spinner2:before {
+  content: "\e97b";
+}
+.icon-spinner3:before {
+  content: "\e97c";
+}
+.icon-spinner91:before {
+  content: "\e982";
+}
+.icon-spinner10:before {
+  content: "\e983";
+}
+.icon-fire1:before {
+  content: "\e9a9";
+}
+.icon-earth:before {
+  content: "\e9ca";
+}
+.icon-question:before {
+  content: "\ea09";
+}
+.icon-info:before {
+  content: "\ea0c";
+}
+.icon-cancel-circle:before {
+  content: "\ea0d";
+}
+.icon-arrow-up2:before {
+  content: "\ea3a";
+}
+.icon-circle-up1:before {
+  content: "\ea41";
+}
+.icon-close:before {
+  content: "\f00d";
+}
+.icon-home:before {
+  content: "\f015";
+}
+.icon-map-marker:before {
+  content: "\f041";
+}
+.icon-mail-forward:before {
+  content: "\f064";
+}
+.icon-phone1:before {
+  content: "\f095";
+}
+.icon-facebook:before {
+  content: "\f09a";
+}
+.icon-truck:before {
+  content: "\f0d1";
+}
+.icon-envelope:before {
+  content: "\f0e0";
+}
+.icon-comments-o:before {
+  content: "\f0e6";
+}
+.icon-angle-up:before {
+  content: "\f106";
+}
+.icon-instagram1:before {
+  content: "\f16d";
+}
+.icon-vk:before {
+  content: "\f189";
+}
+.icon-paper-plane:before {
+  content: "\f1d8";
+}
+.icon-at:before {
+  content: "\f1fa";
+}
+.icon-whatsapp1:before {
+  content: "\f232";
+}
+.icon-question-circle-o:before {
+  content: "\f29c";
+}

@@ -1,0 +1,18 @@
+$link: #ee5045;
+$text: #474747;
+$textTitle: #851b87;
+$textOth: #d26cd4;
+$textOtwo: rgba(230, 135,227, .26);
+
+@mixin bg{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@mixin lt{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
